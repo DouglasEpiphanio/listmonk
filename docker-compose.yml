@@ -9,7 +9,7 @@ x-app-defaults: &app-defaults
   networks:
     - listmonk
   environment:
-    - TZ=Etc/UTC
+    - TZ=UTC/GMT -3
 
 x-db-defaults: &db-defaults
   image: postgres:13-alpine
